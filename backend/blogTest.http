@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFrZUBnbWFpbC5jb20iLCJpZCI6MiwiaWF0IjoxNjkwNDY5NzI1fQ.nvIhT4_lJeNwRpSOmIGDvKP644zcONslx8yQyfLOTpI
+
+{
+    "author": "Ake",
+    "title": "bännit tuli",
+    "url": "http://localhost:3003/api/blogs",
+    "year": 2023
+}
